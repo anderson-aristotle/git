@@ -132,10 +132,6 @@ very badass really awesome girls`.
 
 1.  `git add the-stark-bunch.md`.
 
-1.  `git rm --cache the-stark-bunch.md`.
-
-1.  `git add the-stark-bunch.md`.
-
 1.  `git rm -f the-stark-bunch.md`.
 
 What's the difference? What is actually happening with the `rm` command?
