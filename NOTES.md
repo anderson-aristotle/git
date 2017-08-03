@@ -11,6 +11,9 @@ from https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - Think about git history like Hansel and Gretle's breadcrumbs.
 IF they had just left a sandwich in the middle of the woods, it wouldn't have been very helpful at all. However, the trail of breadcrumbs allows someone else to figure out exactly what their trail was, and saved them from getting horribly murdered by that crazy old woman.
 
-### git commit -m
+### `git commit -m`
 - There is a section in the README that says **Do Not Use git commit -m **
 - Explain the downfalls of having non detailed commit messages and why the above command would not be useful in a production environment. For example, if you had a one line commit, other devs on your team / you in a few months may not remember what was done in the commit. This leads to wasting time investigating differences in code. This could be avoided by making detailed commit messages. They will save time and help everyone on your team now and in the future.
+
+### `git status`
+- Remember to frequently run `git status` after making changes during demo and code alongs. Important that developers get in this habit early on. There is a section in the README describing `committed`, `modified`, and `staged`, but it is also helpful for these types of files at different points throughout the training
