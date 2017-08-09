@@ -13,7 +13,7 @@ commit.
 
 ## Prerequisites
 
--   [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_chapter/intro.html)
+-   WDI Fundamentals
 
 ## Why Git
 
@@ -26,7 +26,7 @@ our app we want to be able to go back to a point when our app was last working.
 
 Let's initalize a local repository.
 
-1.  In your training directory create a subdirectory called `game-of-gits`.
+1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `game-of-gits`.
 
 1.  Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
 
@@ -129,10 +129,6 @@ happen.
 very badass really awesome girls`.
 
 1.  Save the file.
-
-1.  `git add the-stark-bunch.md`.
-
-1.  `git rm --cache the-stark-bunch.md`.
 
 1.  `git add the-stark-bunch.md`.
 
