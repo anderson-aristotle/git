@@ -189,7 +189,7 @@ you may have noticed).
 
 -   [Git Commands Cheatsheet](command-reference.md)
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
--   [Visualizing Git Commands](http://www.wei-wang.com/ExplainGitWithD3/)
+-   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
 ## [License](LICENSE)
