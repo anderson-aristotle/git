@@ -26,9 +26,9 @@ our app we want to be able to go back to a point when our app was last working.
 
 Let's initalize a local repository.
 
-1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `game-of-gits`.
+1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
 
-1.  Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
+1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
 1.  Opening the file with Atom copy in the following lines:
 
@@ -40,10 +40,10 @@ Let's initalize a local repository.
 
 1.  Save the file.
 
-1.  Inside of the `game-of-gits` directory type `git status`. Did anything
+1.  Inside of the `<your-name>s-game-of-gits` directory type `git status`. Did anything
 happen?
 
-1.  Again, inside the `game-of-gits` directory type `git init`.
+1.  Again, inside the `<your-name>s-game-of-gits` directory type `git init`.
 
 1.  Type `git status` again. Did anything happen this time?
 
@@ -123,7 +123,7 @@ happen.
 
 ## Removing: Now we need to remove files previously added
 
-1.  Inside of `game-of-gits` create a file called `the-stark-bunch.md`.
+1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
 1.  Type `This is a story... of a man named Neddy... and three
 very badass really awesome girls`.
