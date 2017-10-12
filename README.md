@@ -106,7 +106,7 @@ happily ever after...  He definitely didn't get axe murdered.
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-**Remember: Staging isn't commiting**
+**Remember: Staging isn't committing**
 
 ## Unstaging: Maybe We Jumped the Gun
 
