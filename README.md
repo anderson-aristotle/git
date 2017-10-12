@@ -190,7 +190,7 @@ together.
 -   NO commit message is too long
 -   NEVER nest repositories
 
-## References
+## Additional Resources
 
 -   [Git Commands Cheatsheet](command-reference.md)
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
