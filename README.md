@@ -26,9 +26,9 @@ our app we want to be able to go back to a point when our app was last working.
 
 Let's initalize a local repository.
 
-1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `game-of-gits`.
+1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
 
-1.  Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
+1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
 1.  Opening the file with Atom copy in the following lines:
 
@@ -40,10 +40,10 @@ Let's initalize a local repository.
 
 1.  Save the file.
 
-1.  Inside of the `game-of-gits` directory type `git status`. Did anything
+1.  Inside of the `<your-name>s-game-of-gits` directory type `git status`. Did anything
 happen?
 
-1.  Again, inside the `game-of-gits` directory type `git init`.
+1.  Again, inside the `<your-name>s-game-of-gits` directory type `git init`.
 
 1.  Type `git status` again. Did anything happen this time?
 
@@ -106,7 +106,7 @@ happily ever after...  He definitely didn't get axe murdered.
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-**Remember: Staging isn't commiting**
+**Remember: Staging isn't committing**
 
 ## Unstaging: Maybe We Jumped the Gun
 
@@ -123,7 +123,7 @@ happen.
 
 ## Removing: Now we need to remove files previously added
 
-1.  Inside of `game-of-gits` create a file called `the-stark-bunch.md`.
+1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
 1.  Type `This is a story... of a man named Neddy... and three
 very badass really awesome girls`.
@@ -164,11 +164,6 @@ happened to Ned.
 (Be ready to talk about any issues you many have encountered or strange things
 you may have noticed).
 
-## Code Along: Learn Git Branching
-
-Now let's take 10-15 minutes and go through [Learn Git Branching](http://learngitbranching.js.org/)
-together.
-
 ## Git Workflow Checklist
 
 -   [ ] `git status` to confirm clean working directory
@@ -190,11 +185,11 @@ together.
 -   NO commit message is too long
 -   NEVER nest repositories
 
-## References
+## Additional Resources
 
 -   [Git Commands Cheatsheet](command-reference.md)
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
--   [Visualizing Git Commands](http://www.wei-wang.com/ExplainGitWithD3/)
+-   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
 ## [License](LICENSE)
