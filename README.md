@@ -140,7 +140,7 @@ What's the difference? What is actually happening with the `rm` command?
 ## Branching: Multiple Stories, One Main Plot
 
 Similar to having one main story and various sub-plots--a branch lets us
-effectively duplicate and section off the code we have writte thus far, make
+effectively duplicate and section off the code we have written thus far, make
 alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
 
