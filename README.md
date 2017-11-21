@@ -152,15 +152,15 @@ We can do this with the command `git checkout <"branch_name">`.
 
 ## Lab: Branching Your Dreams
 
-1.Switch to your `dream-story` branch and write a brief description of what
+1. Switch to your `dream-story` branch and write a brief description of what
 you would have wanted to happen to Ned.
 
-2.Save the file, Stage and commit your changes.
+1. Save the file, Stage and commit your changes.
 
-3.Switch back to your `master` branch. (Notice anything?) Add what really
+1. Switch back to your `master` branch. (Notice anything?) Add what really
 happened to Ned.
 
-4.Stage and commit your changes.
+1. Stage and commit your changes.
 
 (Be ready to talk about any issues you many have encountered or strange things
 you may have noticed).
