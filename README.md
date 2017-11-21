@@ -25,7 +25,7 @@ last working.
 
 ## Code Along: Making a Local Repository
 
-Let's initalize a local repository.
+Let's initialize a local repository.
 
 1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
 
