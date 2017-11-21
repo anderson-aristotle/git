@@ -192,6 +192,7 @@ you may have noticed).
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
 -   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+-   [Github Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 ## [License](LICENSE)
 
