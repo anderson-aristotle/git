@@ -18,13 +18,14 @@ commit.
 ## Why Git
 
 Version control! As developers our code is our livelihood so it's important
-that we safely store our work... frequently.  Not only that we want to track our
-changes as we make them.  If we make a feature that ends up breaking the rest of
-our app we want to be able to go back to a point when our app was last working.
+that we safely store our work... frequently.  Not only that, we also want to
+track our changes as we make them.  If we make a feature that ends up breaking
+the rest of our app we want to be able to go back to a point when our app was
+last working.
 
 ## Code Along: Making a Local Repository
 
-Let's initalize a local repository.
+Let's initialize a local repository.
 
 1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
 
@@ -139,7 +140,7 @@ What's the difference? What is actually happening with the `rm` command?
 ## Branching: Multiple Stories, One Main Plot
 
 Similar to having one main story and various sub-plots--a branch lets us
-effectively duplicate and section off the code we have writte thus far, make
+effectively duplicate and section off the code we have written thus far, make
 alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
 
@@ -151,15 +152,15 @@ We can do this with the command `git checkout <"branch_name">`.
 
 ## Lab: Branching Your Dreams
 
-1.Switch to your `dream-story` branch and write a brief description of what
+1. Switch to your `dream-story` branch and write a brief description of what
 you would have wanted to happen to Ned.
 
-2.Save the file, Stage and commit your changes.
+1. Save the file, Stage and commit your changes.
 
-3.Switch back to your `master` branch. (Notice anything?) Add what really
+1. Switch back to your `master` branch. (Notice anything?) Add what really
 happened to Ned.
 
-4.Stage and commit your changes.
+1. Stage and commit your changes.
 
 (Be ready to talk about any issues you many have encountered or strange things
 you may have noticed).
@@ -191,6 +192,7 @@ you may have noticed).
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
 -   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+-   [Github Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 ## [License](LICENSE)
 
