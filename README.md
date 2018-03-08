@@ -4,16 +4,16 @@
 
 ## Objectives
 
--   Initialize a git repository in order to track changes.
--   Create a new branch to isolate your changes.
--   Place new or changed files into the staging area to prepare them for a
-commit.
--   Remove files from the staging area before a commit.
--   Commit new and changed files to a git repository.
+- Initialize a git repository in order to track changes.
+- Create a new branch to isolate your changes.
+- Place new or changed files into the staging area to prepare them for a
+  commit.
+- Remove files from the staging area before a commit.
+- Commit new and changed files to a git repository.
 
 ## Prerequisites
 
--   WDI Fundamentals
+- WDI Fundamentals
 
 ## Why Git
 
@@ -27,11 +27,13 @@ last working.
 
 Let's initialize a local repository.
 
-1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
+1. In your training directory, NOT the directory you just cloned, create a
+    subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie,
+    it should be called `kyries-game-of-gits`.
 
-1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
+1. Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
-1.  Opening the file with Atom copy in the following lines:
+1. Opening the file with Atom copy in the following lines:
 
   ```bash
   House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
@@ -39,14 +41,14 @@ Let's initialize a local repository.
   Regent.  He is surely honorable and will lead a long and prosperous life.
   ```
 
-1.  Save the file.
+1. Save the file.
 
-1.  Inside of the `<your-name>s-game-of-gits` directory type `git status`. Did anything
-happen?
+1. Inside of the `<your-name>s-game-of-gits` directory type `git status`. Did anything
+   happen?
 
-1.  Again, inside the `<your-name>s-game-of-gits` directory type `git init`.
+1. Again, inside the `<your-name>s-game-of-gits` directory type `git init`.
 
-1.  Type `git status` again. Did anything happen this time?
+1. Type `git status` again. Did anything happen this time?
 
 ## Code Along: Staging and Commiting
 
@@ -56,11 +58,11 @@ area.
 There are 3 states that your file can reside in `committed`, `modified` and
 `staged`.  These states map to the different sections of a Git project.
 
--   Modified means that you have changed the file but have not committed it to
-your database yet.
--   Staged means that you have marked a modified file in its current version
-to go into your next commit snapshot.
--   Committed means that the data is safely stored in your local database.
+- Modified means that you have changed the file but have not committed it to
+  your database yet.
+- Staged means that you have marked a modified file in its current version
+  to go into your next commit snapshot.
+- Committed means that the data is safely stored in your local database.
 
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
@@ -83,8 +85,8 @@ Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
 your commit with the rest of the class.
 
--   [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
--   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
+- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+- [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
 
 Now that we've made our first commit, let's see what happens when we type `git
 log`... We see our previous commit! This typically shows all of our previous
@@ -107,7 +109,7 @@ happily ever after...  He definitely didn't get axe murdered.
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-**Remember: Staging isn't committing**
+#### Remember: Staging isn't committing
 
 ## Unstaging: Maybe We Jumped the Gun
 
@@ -124,16 +126,16 @@ happen.
 
 ## Removing: Now we need to remove files previously added
 
-1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
+1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
-1.  Type `This is a story... of a man named Neddy... and three
-very badass really awesome girls`.
+1. Type `This is a story... of a man named Neddy... and three
+   very badass really awesome girls`.
 
-1.  Save the file.
+1. Save the file.
 
-1.  `git add the-stark-bunch.md`.
+1. `git add the-stark-bunch.md`.
 
-1.  `git rm -f the-stark-bunch.md`.
+1. `git rm -f the-stark-bunch.md`.
 
 What's the difference? What is actually happening with the `rm` command?
 
@@ -153,12 +155,12 @@ We can do this with the command `git checkout <"branch_name">`.
 ## Lab: Branching Your Dreams
 
 1. Switch to your `dream-story` branch and write a brief description of what
-you would have wanted to happen to Ned.
+   you would have wanted to happen to Ned.
 
 1. Save the file, Stage and commit your changes.
 
 1. Switch back to your `master` branch. (Notice anything?) Add what really
-happened to Ned.
+   happened to Ned.
 
 1. Stage and commit your changes.
 
@@ -167,35 +169,35 @@ you may have noticed).
 
 ## Git Workflow Checklist
 
--   [ ] `git status` to confirm clean working directory
--   [ ] confirm branch is correct
--   [ ] make changes to `file`
--   [ ] `git add 'file'`
--   [ ] `git status` (to confirm modified files have been staged)
--   [ ] `git commit`
--   [ ] `git push origin <branchname>`
+- [ ] `git status` to confirm clean working directory
+- [ ] confirm branch is correct
+- [ ] make changes to `file`
+- [ ] `git add 'file'`
+- [ ] `git status` (to confirm modified files have been staged)
+- [ ] `git commit`
+- [ ] `git push origin <branchname>`
 
 ## Git Best Practices
 
--   NEVER use `git add .`
--   ALWAYS add files explicitly. If you have multiple files, use full paths to
+- NEVER use `git add .`
+- ALWAYS add files explicitly. If you have multiple files, use full paths to
     refer to each. Example: `git add foo/bar.md baz/qux.js`
--   NEVER use `git commit -m "an example commit message"`
--   ALWAYS use `git status` before any other command
--   NO commit is too small
--   NO commit message is too long
--   NEVER nest repositories
+- NEVER use `git commit -m "an example commit message"`
+- ALWAYS use `git status` before any other command
+- NO commit is too small
+- NO commit message is too long
+- NEVER nest repositories
 
 ## Additional Resources
 
--   [Git Commands Cheatsheet](command-reference.md)
--   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
--   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
--   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
--   [Github Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Git Commands Cheatsheet](command-reference.md)
+- [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
+- [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
+- [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+- [Github Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
