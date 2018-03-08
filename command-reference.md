@@ -4,23 +4,24 @@
 
 ## `git init`
 
-Initializes a brand new Git repository in your current directory. This repo
-contains no commits and all existing files in the directory will be *untracked*.
+Initializes a brand new Git repository in your current directory. This
+repository contains no commits and all existing files in the directory will be
+*untracked*.
 
-## `git remote add <remote_name> <remote_url>`
+## `git remote add <remote-name> <remote-url>`
 
 Adds a reference to a remote copy of this repository, so you can push to it or
 pull from it. By convention, your personal copy of the repo on GitHub is named
 `origin`.
 
-## `git clone <remote_url>`
+## `git clone <remote-url>`
 
 Copies a repository from GitHub to your local machine. Creates a directory
 *within* your current directory named after the repository, but
 *does not change into it*, and adds a remote named `origin` pointing to the copy
 on GitHub.
 
-## `git add <file_names>`
+## `git add <file-name(s)>`
 
 Adds all changes within the specified files to the **staging area**, or adds
 entire files to the staging area if they are new to the repository. Changes in
@@ -43,7 +44,7 @@ files, moves, or deletions.
 ## `git status`
 
 Summarizes all changes to files on your hard drive since the last commit. Split
-into two categories: Staged (or "to be committed") and not staged.
+into two categories: Staged (to be committed) and not staged.
 
 ## `git diff`
 
@@ -52,14 +53,14 @@ with the contents of your hard drive (use arrow keys to scroll and `q` to quit).
 Use `git diff HEAD` instead to compare all staged and unstaged changes with the
 most recent commit.
 
-## `git rm <file_names>`
+## `git rm <file-name(s)>`
 
 Deletes the specified files, and adds the deletions to the staging area. If you
 just used `rm`, the files would be removed from your hard drive but the removal
 would not be staged, so your next commit would not actually remove them from the
 repo.
 
-## `git mv <old_path> <new_path>`
+## `git mv <old-path> <new-path>`
 
 Moves or renames a file or directory just like `mv` does, but also records the
 move in the staging area. If you just used `mv`, the file/directory would be
@@ -68,14 +69,14 @@ would still have the file/directory in its old location.
 
 ## `git reset HEAD`
 
-Removes all changes from the staging area. Use `git reset HEAD <file_names>` to
-only "unstage" changes to specific files.
+Removes all changes from the staging area. Use `git reset HEAD <file-name(s)>`
+to only "unstage" changes to specific files.
 
 ## `git reset --hard HEAD`
 
 **Warning!** Completely and irreversibly discards all changes to files since
 your last commit. Unlike with most Git commands, there is no recovering from
-this! Use `git reset --hard HEAD <file_names>` to only discard changes to
+this! Use `git reset --hard HEAD <file-name(s)>` to only discard changes to
 specific files.
 
 ## `git commit`
@@ -103,19 +104,19 @@ reference to a specific commit, like `git diff` or `git reset`.
 
 Shows all branches in your local repository.
 
-## `git checkout -b <branch_name>`
+## `git checkout -b <branch-name>`
 
 Creates a new branch with the specified name, and switches to it. The "branch
 point" will be the commit you were on when you performed the checkout. The new
 branch will not have any commits in it yet. This cannot be done if you have any
 changes to files, staged or unstaged.
 
-## `git checkout <branch_name>`
+## `git checkout <branch-name>`
 
 Switches to an existing branch. This cannot be done if you have any changes to
 files, staged or unstaged.
 
-## `git merge <branch_name>`
+## `git merge <branch-name>`
 
 Creates a "merge commit" that merges all of the changes in the specified branch
 *into* your current branch. Most commonly used while on `master` to merge
@@ -130,7 +131,7 @@ it, Git will not create a merge commit, because all it needs to do is scoot the
 `master` pointer up to the newest commit on your branch. This is called a
 "fast-forward" merge.
 
-## `git push -u <remote_name> <branch_name>`
+## `git push -u <remote-name> <branch-name>`
 
 Pushes any new commits in the specified branch to the specified remote. For
 instance, `git push -u origin master` will push any new commits in the `master`
@@ -145,7 +146,7 @@ on. Most commonly used on the `master` branch. If the current branch has
 different changes on the remote and your local copy, you will be prompted to
 make a merge commit. To avoid this, use `git pull --rebase`.
 
-## `git rebase <branch_name>`
+## `git rebase <branch-name>`
 
 **Warning! Here be dragons!** "Moves" the branch point of your current branch up
 to the latest commit on the specified branch (actually creates an entirely new
