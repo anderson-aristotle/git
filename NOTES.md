@@ -47,3 +47,7 @@
 - There is a section in the README describing `committed`, `modified`, and
   `staged`, but it is also helpful for these types of files at different points
   throughout the training
+
+### `git` Diagram
+
+![](https://git.generalassemb.ly/storage/user/5693/files/f8b305ea-0047-11e8-9b26-ce9ceed31a98)
