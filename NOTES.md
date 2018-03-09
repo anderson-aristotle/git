@@ -11,7 +11,7 @@
 
     These questions can be a good segue into why version control is so useful.
 
-- Go over definition "What is "version control", and why should you care?
+- Go over definition of "version control", and why you should care:
   - Version control is a system that records changes to a file or set of files
     over time so that you can recall specific versions later.
     > "For the examples in this book you will use software source code as the
@@ -21,7 +21,7 @@
 
 ### Helpful Analogies
 
-- Think about git history like Hansel and Gretle's breadcrumbs.
+- Think about git history like Hansel and Gretle's breadcrumbs:
   - IF they had just left a sandwich in the middle of the woods, it wouldn't
     have been very helpful at all.
   - However, the trail of breadcrumbs allows
@@ -30,7 +30,7 @@
 
 ### `git commit -m`
 
-- There is a section in the README that says **Do Not Use git commit -m**
+- There is a section in the README that says [Do Not Use git commit -m](README.md/#do-not-use-git-commit--m-message)
 - Explain the downfalls of having non detailed commit messages and why the above
   command would not be useful in a production environment.
   - For example, if you had a one line commit, other devs on your team / you in
@@ -44,9 +44,9 @@
 - Remember to frequently run `git status` after making changes during demo and
   code alongs.
 - Important that developers get in this habit early on.
-- There is a section in the README describing `committed`, `modified`, and
-  `staged`, but it is also helpful for these types of files at different points
-  throughout the training
+- There is a [section](README.md/#code-along-staging-and-commiting) in the
+  README describing `modified`, `staged` and `committed`, but it is also
+  helpful for these types of files at different points throughout the training.
 
 ### `git` Diagram
 
