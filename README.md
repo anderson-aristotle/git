@@ -52,7 +52,7 @@ Let's initialize a local repository.
 
 ## Code Along: Staging and Commiting
 
-Using `git add <"name_of_file">` we are going to add our story to the staging
+Using `git add <name-of-file>` we are going to add our story to the staging
 area.
 
 There are 3 states that your file can reside in `committed`, `modified` and
@@ -116,7 +116,7 @@ of your files you can type `git status` in the terminal at any time.
 It turns out Ned actually did get axe murdered. So we probably want to unstage
 our file.
 
-Unstage the file with `git reset <"filename">`
+Unstage the file with `git reset <filename>`
 
 Delete the last thing we wrote in `sad-tale.md`.
 
@@ -150,7 +150,7 @@ Create a branch called `dream-story` by typing `git branch dream-story`.
 _You can see all your current branches at any time by tying `git branch`._
 
 Now that we've created our branch--in order to use it we have to switch to it.
-We can do this with the command `git checkout <"branch_name">`.
+We can do this with the command `git checkout <branch-name>`.
 
 ## Lab: Branching Your Dreams
 
