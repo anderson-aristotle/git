@@ -59,10 +59,10 @@ There are 3 states that your file can reside in `committed`, `modified` and
 `staged`.  These states map to the different sections of a Git project.
 
 - Modified means that you have changed the file but have not committed it to
-  your database yet.
+  your git repository yet.
 - Staged means that you have marked a modified file in its current version
   to go into your next commit snapshot.
-- Committed means that the data is safely stored in your local database.
+- Committed means that the data is safely stored in your local git repository.
 
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
@@ -198,6 +198,6 @@ you may have noticed).
 
 ## [License](LICENSE)
 
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
