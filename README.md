@@ -109,7 +109,7 @@ happily ever after...  He definitely didn't get axe murdered.
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-#### Remember: Staging isn't committing
+**Remember: Staging isn't committing**
 
 ## Unstaging: Maybe We Jumped the Gun
 
@@ -198,6 +198,6 @@ you may have noticed).
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
+   alternative licensing, please contact legal@ga.co.
