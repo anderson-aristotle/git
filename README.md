@@ -147,7 +147,7 @@ alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
 
 Create a branch called `dream-story` by typing `git branch dream-story`.
-_You can see all your current branches at any time by tying `git branch`._
+_You can see all your current branches at any time by typing `git branch`._
 
 Now that we've created our branch--in order to use it we have to switch to it.
 We can do this with the command `git checkout <branch-name>`.
