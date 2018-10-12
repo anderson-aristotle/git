@@ -72,12 +72,14 @@ When we add a file we are moving it from the working directory to the staging
 area.
 
 Now that our file is staged let's commit our file by typing `git commit`, Atom
-should open. **Do Not Use `git commit -m <message>`**
+should open. You may have seen `git commit -m <commit message>` used to commit
+with an inline commit message. In most cases, we prefer to use `git commit`,
+which allows us to write a longer and more meaningful commit message.
 
-When you use -m to create an inline commit you are doing yourself and others a
-disservice.  Your commit will be inherently poor due to the short nature of
-inline commits, and the lack of a body description to it. This is surely a sign
-of a poor developer and one that does not respect his or her teammate's time.
+When you use -m to create an inline commit you are only able to leave a small
+amount of information with your commit. This can potentially lead to poor
+understandably of your commit due to the short nature of inline commits, and
+the lack of a body description to it.
 
 ## Lab: Crafting A Commit
 
@@ -109,7 +111,7 @@ happily ever after...  He definitely didn't get axe murdered.
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-#### Remember: Staging isn't committing
+**Remember: Staging isn't committing**
 
 ## Unstaging: Maybe We Jumped the Gun
 
@@ -147,7 +149,7 @@ alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
 
 Create a branch called `dream-story` by typing `git branch dream-story`.
-_You can see all your current branches at any time by tying `git branch`._
+_You can see all your current branches at any time by typing `git branch`._
 
 Now that we've created our branch--in order to use it we have to switch to it.
 We can do this with the command `git checkout <branch-name>`.
@@ -179,10 +181,11 @@ you may have noticed).
 
 ## Git Best Practices
 
-- NEVER use `git add .`
-- ALWAYS add files explicitly. If you have multiple files, use full paths to
-    refer to each. Example: `git add foo/bar.md baz/qux.js`
-- NEVER use `git commit -m "an example commit message"`
+- ADD files explicitly. If you have multiple files, use full paths to refer to
+  each. Example: `git add foo/bar.md baz/qux.js`
+- AVOID `git add .` unless you have just initialized a new repo and need to
+  stage all the files
+- USE `git commit` instead of `git commit -m "an example commit message"`
 - ALWAYS use `git status` before any other command
 - NO commit is too small
 - NO commit message is too long
@@ -198,6 +201,6 @@ you may have noticed).
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
+   alternative licensing, please contact legal@ga.co.
