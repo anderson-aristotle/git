@@ -72,12 +72,14 @@ When we add a file we are moving it from the working directory to the staging
 area.
 
 Now that our file is staged let's commit our file by typing `git commit`, Atom
-should open. **Do Not Use `git commit -m <message>`**
+should open. You may have seen `git commit -m <commit message>` used to commit
+with an inline commit message. In most cases, we prefer to use `git commit`,
+which allows us to write a longer and more meaningful commit message.
 
-When you use -m to create an inline commit you are doing yourself and others a
-disservice.  Your commit will be inherently poor due to the short nature of
-inline commits, and the lack of a body description to it. This is surely a sign
-of a poor developer and one that does not respect his or her teammate's time.
+When you use -m to create an inline commit you are only able to leave a small
+amount of information with your commit. This can potentially lead to poor
+understandably of your commit due to the short nature of inline commits, and
+the lack of a body description to it.
 
 ## Lab: Crafting A Commit
 
@@ -179,10 +181,11 @@ you may have noticed).
 
 ## Git Best Practices
 
-- NEVER use `git add .`
-- ALWAYS add files explicitly. If you have multiple files, use full paths to
-    refer to each. Example: `git add foo/bar.md baz/qux.js`
-- NEVER use `git commit -m "an example commit message"`
+- ADD files explicitly. If you have multiple files, use full paths to refer to
+  each. Example: `git add foo/bar.md baz/qux.js`
+- AVOID `git add .` unless you have just initialized a new repo and need to
+  stage all the files
+- USE `git commit` instead of `git commit -m "an example commit message"`
 - ALWAYS use `git status` before any other command
 - NO commit is too small
 - NO commit message is too long
