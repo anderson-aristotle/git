@@ -122,10 +122,6 @@ Unstage the file with `git reset <filename>`
 
 Delete the last thing we wrote in `sad-tale.md`.
 
-We know that Ned's story doesn't have a happy ending but let's dream big.  We're
-going to create a dream-story branch and write what we would have wanted to
-happen.
-
 ## Removing: Now we need to remove files previously added
 
 1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
@@ -142,6 +138,10 @@ happen.
 What's the difference? What is actually happening with the `rm` command?
 
 ## Branching: Multiple Stories, One Main Plot
+
+Looking back, we know that Ned's story doesn't have a happy ending but let's
+dream big.  We're going to create a dream-story branch and write what we would
+have wanted to happen.
 
 Similar to having one main story and various sub-plots--a branch lets us
 effectively duplicate and section off the code we have written thus far, make
