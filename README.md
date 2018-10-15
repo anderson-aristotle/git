@@ -93,7 +93,7 @@ your commit with the rest of the class.
 Now that we've made our first commit, let's see what happens when we type `git
 log`... We see our previous commit! This typically shows all of our previous
 commits, but since we just have one, that's all we see. Feel free to play around
-with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
+with options for `git log`, like `--oneline`, `--name-status`, and `--relative-date`
 for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 ## Staging: And He Lived Happily After
