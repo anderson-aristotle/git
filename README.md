@@ -87,8 +87,8 @@ Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
 your commit with the rest of the class.
 
-- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 - [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
+- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 Now that we've made our first commit, let's see what happens when we type `git
 log`... We see our previous commit! This typically shows all of our previous
