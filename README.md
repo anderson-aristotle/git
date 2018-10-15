@@ -55,8 +55,8 @@ Let's initialize a local repository.
 Using `git add <name-of-file>` we are going to add our story to the staging
 area.
 
-There are 3 states that your file can reside in `committed`, `modified` and
-`staged`.  These states map to the different sections of a Git project.
+There are 3 states that your file can reside in `modified`, `staged`, and
+`committed`.  These states map to the different sections of a Git project.
 
 - Modified means that you have changed the file but have not committed it to
   your git repository yet.
