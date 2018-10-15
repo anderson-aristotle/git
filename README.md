@@ -124,6 +124,27 @@ Delete the last thing we wrote in `sad-tale.md`.
 
 ## Removing: Now we need to remove files previously added
 
+### Using the bash `rm` command
+
+1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
+
+1. Type `This is a story... of a man named Neddy... and three
+   very badass really awesome girls`.
+
+1. Save the file.
+
+1. `git add the-stark-bunch.md`.
+
+1. `rm the-stark-bunch.md`.
+
+1. `git status`
+
+What do you see? The addition of `the-stark-bunch.md` is still staged as a `new file` type change, however, there is an unstaged `deleted` type change. You have to run an additional command to unstage the `new file ` change.
+
+7. `git reset -- the-stark-bunch.md`.
+
+### Using the `git rm` command
+
 1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
 1. Type `This is a story... of a man named Neddy... and three
@@ -135,7 +156,9 @@ Delete the last thing we wrote in `sad-tale.md`.
 
 1. `git rm -f the-stark-bunch.md`.
 
-What's the difference? What is actually happening with the `rm` command?
+1. `git status`
+
+What's the difference between `git rm` and `rm`? What is actually happening with the `git rm` command?
 
 ## Branching: Multiple Stories, One Main Plot
 
