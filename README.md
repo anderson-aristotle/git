@@ -33,7 +33,7 @@ Let's initialize a local repository.
 
 1. Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
-1. Opening the file with Atom copy in the following lines:
+1. Open the file with Atom and copy in the following lines:
 
   ```
   House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
@@ -122,14 +122,20 @@ Unstage the file with `git reset <filename>`
 
 Delete the last thing we wrote in `sad-tale.md`.
 
-## Removing: Now we need to remove files previously added
+## Removing: Deleting Staged Files
 
-### Using the bash `rm` command
+Let's practice removing files after they have been staged.
+
+### Using The Bash `rm` Command
 
 1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
-1. Type `This is a story... of a man named Neddy... and three
-   very badass really awesome girls`.
+1. Open the file with Atom and copy in the following lines:
+
+  ```
+  This is a story... of a man named Neddy... and three very badass really
+  awesome girls
+  ```
 
 1. Save the file.
 
@@ -143,12 +149,16 @@ What do you see? The addition of `the-stark-bunch.md` is still staged as a `new 
 
 7. `git reset -- the-stark-bunch.md`.
 
-### Using the `git rm` command
+### Using The `git rm` Command
 
 1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
-1. Type `This is a story... of a man named Neddy... and three
-   very badass really awesome girls`.
+1. Open the file with Atom and copy in the following lines:
+
+  ```
+  This is a story... of a man named Neddy... and three very badass really
+  awesome girls
+  ```
 
 1. Save the file.
 
