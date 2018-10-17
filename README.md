@@ -33,9 +33,9 @@ Let's initialize a local repository.
 
 1. Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
-1. Opening the file with Atom copy in the following lines:
+1. Open the file with Atom and copy in the following lines:
 
-  ```bash
+  ```
   House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
   Winterfell, Warden of the North, Hand of the King, Protector of the Realm,
   Regent.  He is surely honorable and will lead a long and prosperous life.
@@ -55,8 +55,8 @@ Let's initialize a local repository.
 Using `git add <name-of-file>` we are going to add our story to the staging
 area.
 
-There are 3 states that your file can reside in `committed`, `modified` and
-`staged`.  These states map to the different sections of a Git project.
+There are 3 states that your file can reside in `modified`, `staged`, and
+`committed`.  These states map to the different sections of a Git project.
 
 - Modified means that you have changed the file but have not committed it to
   your git repository yet.
@@ -87,13 +87,13 @@ Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
 your commit with the rest of the class.
 
-- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 - [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
+- [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 Now that we've made our first commit, let's see what happens when we type `git
 log`... We see our previous commit! This typically shows all of our previous
 commits, but since we just have one, that's all we see. Feel free to play around
-with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
+with options for `git log`, like `--oneline`, `--name-status`, and `--relative-date`
 for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 ## Staging: And He Lived Happily After
@@ -103,7 +103,7 @@ Together, let's continue our story.
 In our `sad-tale.md`, we'll tell the rest of Ned Stark's story.  Paste this in
 below our current description and save:
 
-```sh
+```
 Ned Stark went to King's landing where he made lots of friends and lived
 happily ever after...  He definitely didn't get axe murdered.
 ```
@@ -122,16 +122,43 @@ Unstage the file with `git reset <filename>`
 
 Delete the last thing we wrote in `sad-tale.md`.
 
-We know that Ned's story doesn't have a happy ending but let's dream big.  We're
-going to create a dream-story branch and write what we would have wanted to
-happen.
+## Removing: Deleting Staged Files
 
-## Removing: Now we need to remove files previously added
+Let's practice removing files after they have been staged.
+
+### Using The Bash `rm` Command
 
 1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
-1. Type `This is a story... of a man named Neddy... and three
-   very badass really awesome girls`.
+1. Open the file with Atom and copy in the following lines:
+
+  ```
+  This is a story... of a man named Neddy... and three very badass really
+  awesome girls
+  ```
+
+1. Save the file.
+
+1. `git add the-stark-bunch.md`.
+
+1. `rm the-stark-bunch.md`.
+
+1. `git status`
+
+What do you see? The addition of `the-stark-bunch.md` is still staged as a `new file` type change, however, there is an unstaged `deleted` type change. You have to run an additional command to unstage the `new file ` change.
+
+7. `git reset -- the-stark-bunch.md`.
+
+### Using The `git rm` Command
+
+1. Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
+
+1. Open the file with Atom and copy in the following lines:
+
+  ```
+  This is a story... of a man named Neddy... and three very badass really
+  awesome girls
+  ```
 
 1. Save the file.
 
@@ -139,9 +166,15 @@ happen.
 
 1. `git rm -f the-stark-bunch.md`.
 
-What's the difference? What is actually happening with the `rm` command?
+1. `git status`
+
+What's the difference between `git rm` and `rm`? What is actually happening with the `git rm` command?
 
 ## Branching: Multiple Stories, One Main Plot
+
+Looking back, we know that Ned's story doesn't have a happy ending but let's
+dream big.  We're going to create a dream-story branch and write what we would
+have wanted to happen.
 
 Similar to having one main story and various sub-plots--a branch lets us
 effectively duplicate and section off the code we have written thus far, make
