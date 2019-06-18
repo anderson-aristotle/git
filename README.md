@@ -238,3 +238,4 @@ you may have noticed).
 1. All software code is licensed under GNU GPLv3. For commercial use or
    alternative licensing, please contact legal@ga.co.
 # git-training
+# git
